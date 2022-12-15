@@ -1,0 +1,139 @@
+
+@media (min-width:800px){.w3-modal-content{width:900px}.w3-hide-large{display:none!important}.w3-sidebar.w3-collapse{display:block!important}}
+@media (max-width:1024px) {.w3-hide-medium{display:none!important}}
+@media (max-width:1024px){.w3-sidebar.w3-collapse{display:none}.w3-main{margin-left:0!important;margin-right:0!important}.w3-auto{max-width:100%}}
+
+
+.w3-panel{padding:1em 240px}
+
+.center {
+  text-align: center;
+
+}
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+}
+
+h1{
+  font-size: 48px;
+}
+
+.kai{
+  font-family: 'Dancing Script', cursive;  
+}
+
+.mobileButton{
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+h2, h4{
+  font-weight: 700;
+}
+
+td{
+  padding: 1px 16px;   
+}
+
+h3{
+  font-weight: 400;
+}
+
+.card{     /* self note:  . is for class in html */
+  padding: 0 40px;
+  display: flex;
+  flex-flow: row no-wrap;
+  margin-bottom: 25px;
+
+}  
+
+.leftside{
+  box-sizing: border-box;
+  padding: 15px;
+  flex: 20%;
+  font-size: 1.8em;
+}
+
+.rightside{
+  box-sizing: border-box;
+  padding: 0 15px;
+  flex: 80%;
+}
+
+.pro-items{
+  padding-left: 2em;
+  padding-right: 2em;
+
+}
+
+.linkedinBox{
+  padding: 2em;
+}
+
+.button {
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+
+  
+/* BACKUP ONLY, not used anymore
+.half{
+    box-sizing: border-box;
+    padding: 0 15px;
+    flex: 1 0 50%;
+}
+
+.card-right {
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: arial;
+  border-radius: 5px;
+}
+
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+
+*/
+
