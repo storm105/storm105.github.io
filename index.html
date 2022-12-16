@@ -1,0 +1,364 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WEB222 Final Assessment Winter 2022 by Kai Yu Man</title>
+        
+        <!-- CSS from w3school -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-win8.css">  <!-- more colors from win8 library-->
+
+        <!-- Self overriding CSS -->
+        <link rel="stylesheet" href="css/self.css"> 
+
+        <!-- Fonts from Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <button class="mobileButton w3-button w3-xlarge w3-hide-large w3-win8-cobalt w3-hover-orange" onclick="w3_open()">&#9776;</button>
+        <div class="w3-sidebar w3-bar-block w3-collapse w3-card w3-animate-left w3-win8-cobalt" style="width:200px;" id="mySidebar">
+            
+            <button class="w3-bar-item w3-button w3-large w3-hide-large w3-hover-orange" onclick="w3_close()">Close &times;</button>
+            <a href="#top" class="w3-bar-item w3-button w3-hover-orange">Top</a>
+            <a href="#edu" class="w3-bar-item w3-button w3-hover-orange">Education Background</a>
+            <a href="#interests" class="w3-bar-item w3-button w3-hover-orange">My Interests</a>
+            <a href="#pro" class="w3-bar-item w3-button w3-hover-orange">Professional Experience</a>
+            <a href="#connect" class="w3-bar-item w3-button w3-hover-orange">Want To Connect?</a>
+        </div>
+
+        <div class="w3-main" style="margin-left:200px">
+        
+        <!-- Top  -->
+        <div class="w3-blue" id="top">
+
+            <div class="w3-container center">
+                <h1 class="kai">Welcome to the Page of Kai</h1>
+            </div>
+        </div>
+          
+        <div class="w3-container">
+    
+            <main class="main">
+
+                <section class="top2" id="top2">
+                    <div class="top-content">
+                        <div class="top-img center">
+                            <!-- self portrait -->
+                            <img src="img/self-pro-1.jpg" alt="Professional portrait" width=30% />
+                            <img src="img/self-leisure.jpg" alt="leisure portrait" width=30% />
+                        </div>
+                        <div class="top-text">
+                            <div class="center">
+                                <h3>Greetings!</h3>
+                                <h2 class="kai">My name is Kai</h2>
+                                <p>On the left, it is the Professional-Kai;  while on the right, that's Leisure-Kai.</p>
+                                <p>My background is a little bit complicated... okay I will try to explain it in an easy way.</p>
+                            </div>
+                            <p>In an user-friendly way, I am...</p> 
+                            <ul>
+                                <li>a family man with kids at home</li>
+                                <li>a sporty person with passion in jogging, golfing, hiking and driving</li>
+                                <li><em>at the same time</em>, a quiet person that enjoy sitting in a small room reading a book or magazine without distractions</li>
+                                <li>an "ex-Banker" in Asia who worked in various global banks</li>
+                                <li>a full-time student who push myself into an un-comfort zone learning computer coding!</li>
+                            </ul>
+
+                            <p>In a traditional boring way...  Please kindly see my basic information below:</p>
+
+                            <div class="boring">
+                                <br>
+                                <h4 class = "center">Basic Information</h4>
+                                <table>
+                                    <tr>
+                                        <td><b>NAME:</b></td>
+                                        <td>Kai Yu Man</td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>EMAIL:</b></td>
+                                        <td>kman2@myseneca.ca</td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>LANGUAGE:</b></td>
+                                        <td>Cantonese and English</td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>(actually I am quite proud of speaking both very well)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>COURSE:</b></td>
+                                        <td>WEB222</td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>SECTION:</b></td>
+                                        <td>NFF</td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>STUDENT ID:</b></td>
+                                        <td>162280218</td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>INSTRUCTOR:</b></td>
+                                        <td>Mr. Mark Meritt</td>
+                                    </tr>
+                                </table>
+                            </div>
+
+                            <div class="about-text center">
+                                <br>
+                                <h4>Honesty Statement</h4>
+                                <p>
+                                    I declare that my assessment is wholly my own work in accordance with Seneca Academic Policy. 
+                                    No part of this assessment has been copied manually or electronically from any other source (including web sites) 
+                                    except for the information supplied by the WEB222 instructors and / or made available in this assessment for my use. 
+                                    I also declare that no part of this assignment has been distributed to other students.
+                                </p>
+                                <p>Dec 15, 2022</p>
+                                <br>
+                            </div>
+                        </div>
+
+                        <div class="buttons center">
+                            <a download="Resume 2022 for Web222" href="CV_2022_web222.pdf"><button class="w3-button w3-round-large w3-blue w3-hover-orange">Resume</button></a>
+                            <a href="#connect"><button class="w3-button w3-round-large w3-blue w3-hover-orange">Want To Connect?</button></a>
+                        </div>
+
+                    </div>
+                </section>
+
+                <!-- Education Background  -->
+                <br>
+                <section class="edu w3-win8-blue" id="edu">
+                    <h2 class="heading center">Education Background</h2>
+                    <div class="edu-content">
+
+                        <div class="card">
+                            <div class="leftside center w3-blue">
+                                <p>2022</p>
+                            </div>
+                            <div class="rightside w3-white">
+                                <h3>Seneca College</h3>
+                                <p>Computer Programming</p>
+                                <p>Actively learning various computer languages - C++, Java, SQL, HTML.</p>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="leftside center w3-blue">
+                                <p>2010</p>
+                            </div>
+                            <div class="rightside w3-white">
+                                <h3>Financial Risk Manager (FRM)</h3>
+                                <p>This is current and active.</p>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="leftside center w3-blue">
+                                <p>2009</p>
+                            </div>
+                            <div class="rightside w3-white">
+                                <h3>"Ex-" Chartered Financial Analyst (CFA)</h3>
+                                <p>Inactive membership status...  because I have stopped paying the annual member fee after leaving banking industry.
+                                 </p>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="leftside center w3-blue">
+                                <p>2006</p>
+                            </div>
+                            <div class="rightside w3-white">
+                                <h3>Chinese University of Hong Kong</h3>
+                                <p>Major: Business Administration (BBA), focus in Finance</p>
+                                <p>Minor: Economics</p>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="leftside center w3-blue">
+                                <p>2005</p>
+                            </div>
+                            <div class="rightside w3-white">
+                                <h3>University of Alberta</h3>
+                                <p>Department of Business & Department of Economics</p>
+                                <p>Exchange Programme</p>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <p>You see? I told you that my background is a bit complicated. Why would I leave my comfort-zone, <em>the finance and banking industry</em>, and dive into the world of programming? Keep reading... maybe you will find an explanation that makes sense to you.</p>
+                        </div>
+
+                    </div>
+                </section>
+
+                <!-- My Interests  -->
+                <br>
+                <section class="interests center" id="interests">
+                    <h2 class="heading">My interests</h2>
+                    <div class="interests-content">
+                        <p>Sometimes, photos speak better than words. One of my favorite activities - Golf:</p>
+                        <img src="img/1ready-1.jpg" alt="ready-to-swing" style="width: 48%" />
+                        <img src="img/2full_swing-1.jpg" alt="full-swing-ing" style="width: 48%" />
+                        <img src="img/3end_of_swing-1.jpg" alt="end-of-swing" style="width: 48%" />
+                        <img src="img/4find_ball-1.jpg" alt="finding-the-ball-back" style="width: 48%" />
+                    </div>
+                </section>                
+
+                <!-- Professional Experience -->
+                <br>
+                <section class="pro  w3-indigo" id="pro">
+                    <h2 class="heading center">Professional Experience</h2>
+                    <div class="pro-content">
+
+                        <div class="pro-items">
+                            <h3>Deutsche Bank</h3>
+                            <h3>Australia and New Zealand Banking Group (ANZ)</h3>
+                            <h3>Standard Chartered Bank</h3>
+                        </div>
+
+                        <div class="linkedinBox">
+                            <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="HORIZONTAL" data-vanity="jonathan-man-ca" data-version="v1">
+                                <a class="badge-base__link LI-simple-link" href="https://ca.linkedin.com/in/jonathan-man-ca?trk=profile-badge"></a>
+                            </div>
+                        </div>
+
+                        <div class="pro-items">
+                            <p>
+                                Sometimes, for some people, like me, when engaged in a single industry for over a decade,
+                                they may start to lose their passion. When that happens to you, what would you do?
+                            </p>
+                            <p>
+                                I chose to walk out from my comfort-zone and dive into a brand new world - coding!
+                            </p>
+                            <br>
+                        </div>
+                        
+                    </div>
+                </section>
+
+                <!-- Want To Connect? -->
+                <br>
+                <section class="connect w3-deep-purple" id="connect">
+                    <h2 class="heading center">Want To Connect?</h2>
+                    <div class="connect-content">
+
+                        <form id="connectForm" class="connectForm" action="https://httpbin.org/post" method="POST">
+                        
+                            <table>
+                                <tr>
+                                    <td><label for="fullname">Name:</label></td>
+                                    <td><input id="fullname" type="text" name="name"  placeholder="Your name" ></td>
+                                </tr>
+
+                                <tr>
+                                    <td><label for="email">Email:</label>  </td>
+                                    <td><input id="email" name="email" type="text" placeholder="sample@email.com" >  </td>
+                                </tr>
+
+                                <tr>
+                                    <td><label for="address">Address:</label>  </td>
+                                    <td><textarea id="addressInput" name="address" rows="3" placeholder="(optional)" ></textarea>  </td>
+                                </tr>
+
+                                <!-- Datalist for Top 10 populated cities in Canada -->
+                                <tr>
+                                    <td><label for="name">City:</label>  </td>
+                                    <td>
+                                        <input id="cityInput" class="format" type="text"  name="city" list="suggestions" placeholder="pick/type your city"/>
+                                        <datalist id="suggestions">
+                                            <option label="Calgary" value="Calgary"></option>
+                                            <option label="Edmonton" value="Edmonton"></option>
+                                            <option label="Hamilton" value="Hamilton"></option>
+                                            <option label="Kitchener" value="Kitchener"></option>
+                                            <option label="Montreal" value="Montreal"></option>
+                                            <option label="Ottawa" value="Ottawa"></option>
+                                            <option label="Quebec City" value="Quebec City"></option>
+                                            <option label="Toronto" value="Toronto"></option>
+                                            <option label="Vancouver" value="Vancouver"></option>
+                                            <option label="Winnipeg" value="Winnipeg"></option>
+                                        </datalist>
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td><label for="pCode">Postal Code:</label> </td>
+                                    <td><input id="postalcode" name="Postal_Code" type="text"  class="format" placeholder="Canadian postal code">    </td>
+                                </tr>
+
+                                <tr>
+                                    <div class="radio-btns">
+                                        <td><label for="purpose">Main purpose of the message: </label>  </td>
+                                        <td>
+                                            <input type="radio" id="question" name="purpose" value="question">
+                                            <label for="question">Question</label><br>
+                                            <input type="radio" id="comment" name="purpose" value="comment">
+                                            <label for="comment">Comment</label><br>
+                                            <input type="radio" id="hiring" name="purpose" value="hiring">
+                                            <label for="hiring">Hiring</label>  
+                                        </td>
+                                    </div>
+                                </tr>
+
+                                <tr>
+                                    <!-- place holder for "Hourly Wage: " display -->
+                                    <td><label id="wage_label" for="wage" >  </label></td> 
+                                    <!-- place holder for Wage input box-->
+                                    <td id="wage_input">  </td>      
+                                </tr>
+
+                                <tr>
+                                    <td><label for="message">Your message:</label>  </td>
+                                    <td><textarea name="message" id="message" rows="5" placeholder="Enter your message..." class="address"></textarea>  </td>
+                                </tr>
+
+                                <tr>
+                                    <td><label for="urgency">Urgency of your message: </label>  </td>
+                                    <td>                            
+                                        <select name="urgency" id="urgency" size=4>
+                                            <option value="4">Top Urgent! Pls reply!</option>
+                                            <option value="3">Quite urgent!</option>
+                                            <option value="2" selected>Normal inquiry</option>
+                                            <option value="1">Just casual, not urgent</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                        
+                            </table>
+
+                            <br>
+
+                            <div class="buttons center">
+                                <input type="submit" value="Send" class="btn w3-button w3-round-large w3-win8-orange w3-hover-blue">
+                                <input type="reset" value="Clear" class="btn w3-button w3-round-large w3-win8-orange w3-hover-blue">
+                            </div>
+
+                            <br>
+                        </form>
+                    </div>
+                </section>
+            </main>
+
+            <!-- Footer -->
+            <footer class="footer center">
+                <p>Remarks: This website is created for final assignment of WEB222 Course at Seneca College. By Kai Yu Man.<br> </p>
+            </footer>
+
+        </div>
+
+        <!-- Main JavaScript File -->
+        <script src="./js/app.js"></script>
+
+        <!-- for Linkedin Profile Badge -->
+        <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+
+    </body>
+</html>
